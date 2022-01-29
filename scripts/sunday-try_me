@@ -6,3 +6,6 @@ def try_me():
         return 'CORRECT!'
     if answer != 'golf':
         return 'WRONG, GOLF!'
+
+if __name__ == "__main__":
+    print(try_me())

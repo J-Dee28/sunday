@@ -13,5 +13,5 @@ setup(name='sunday',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/sunday-run'],
+      scripts=['scripts/sunday-run', 'scripts/sunday-try_me'],
       zip_safe=False)
